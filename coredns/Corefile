@@ -1,0 +1,10 @@
+.:53 {
+    errors
+    cache 30
+    hosts /etc/coredns/db.ikohut.org {
+        fallthrough
+    }
+    log
+    forward . 8.8.8.8
+}
+
